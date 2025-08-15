@@ -8,6 +8,8 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { Skeleton } from "@/components/ui/skeleton";
 import ProductCard from "../components/ProductCard";
 
+// This is my token! -> Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ6eGN2MTkzQGdtYWlsLmNvbSIsImV4cCI6MTc1NTc5NDUxN30.YkiSYZY5iiHVK-KLx6Im3NVNXeRyX8oEI9a1puDi_Ck
+
 export default function ProductsPage() {
     const [products, setProducts] = useState([]);
     const [filteredProducts, setFilteredProducts] = useState([]);
